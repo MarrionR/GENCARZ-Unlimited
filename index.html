@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <title>GENCARZ Unlimited</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#main_menu">
+    <!-- Navigation -->
+    <nav 
+      id="main_menu"
+      class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"
+      style="opacity: 0.9;"
+    >
+      <div class="container">
+        <a href="index.html" class="btn text-light"><h1 class="fw-bolder"> GENCARZ Unlimited</h1></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li><a href="index.html" class="nav-link fw-bold">Home</a></li>
+            <li><a href="about.html" class="nav-link fw-bold">About</a></li>
+
+            <li class="dropdown">
+              <a
+                href="#"
+                class="nav-link fw-bold dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Services</a>
+              <ul class="dropdown-menu">
+                <li>
+                    <li><a href="services.html#pms" class="dropdown-item ">Preventive Maintenance Services</a></li>
+                    <a href="services.html#body" class="dropdown-item">Body Repair</a>
+                  </li>
+                <li><a href="services.html#electrical" class="dropdown-item">Electrical</a></li>
+                <li><a href="services.html#under-chasssis" class="dropdown-item">Under Chassis</a></li>
+                <li><a href="services.html#paint" class="dropdown-item">Paint Job</a></li>
+                <li><a href="services.html#others" class="dropdown-item">Other Services</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="contact.html#contact" class="nav-link fw-bold">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section
+      id="slider"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-touch="true">
+      <div class="carousel-indicators">
+      <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#slider" data-bs-slide-to="1" ></button>
+      <button type="button" data-bs-target="#slider" data-bs-slide-to="2" ></button>
+     </div>
+     <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./MINI 1 project_Images/showcase2.jpg" alt="showcase2" class=" d-block w-100" />
+            <div class="carousel-caption">
+            <h1 class="fw-bold">GENCARZ Unlimted</h1>
+            <p>We make your vehicles in Brand New!</p>
+            <a href="#" class="btn btn-info">Book an Appointment Now</a>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="./MINI 1 project_Images/showcase.jpg" alt="showcase" class="d-block w-100" />
+          <div class="carousel-caption ">
+            <h1 class="fw-bold">Skilled Mechanics </h1>
+            <p>We Take care your vehicles to our Highly Skilled Workers </p>
+            <a href="#" class="btn btn-info">Check Our Team</a>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="./MINI 1 project_Images/volks_1.png" alt="car-group" class="d-block w-100" />
+          <div class="carousel-caption">
+            <h1 class="fw-bold">From Vintage to Brand New</h1>
+            <p>We Fix Them All</p>
+            <a href="#" class="btn btn-info">Book an Appointment Now</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="pt-md-3 text-light bg-dark pt-5">
+      <div class="container pb-3">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <img src="./MINI 1 project_Images/showcase1.jpeg" alt="About Image" />
+          </div>
+          <div class="col-md-6 align-self-center">
+            <h2 class="text-center">About Us</h2>
+            <p>
+              Welcome to <span class="fw-bold">GENCARZ Unlimited</span> (formerly GENCARZ Auto Restoration) located in Asingan, Pangasinan! We are a full-service preventive maintenance and professional automotive repair center. We perform high quality, guaranteed service you can trust at a fair price. We repair mostly domestic and foreign vehicles and are your best choice for scheduled maintenance of your car, SUV, or multicab. We know how much you depend on your vehicles. Thats why we are committed to provide safe, reliable auto repair and outstanding customer service. We offer 6 full bays to provide, quality repairs to your car, excellent paint jobs, an inspection station, and a bright clean and well-maintained waiting area with a mini hospitality center to serve you.
+            </p>
+            <a href="about.html" class="btn btn-light mt-3"
+              >Read More<i class="bi bi-chevron-right"></i></a
+            >
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES -->
+    <section id="services" class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <!-- First Box -->
+          <div class="col-md-4">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <img src="./MINI 1 project_Images/services-image/paint-job.jpg" alt="paintjob">
+                <h3 class="card-title mb-3">Paint Job</h3>
+                <a href="services.html#paint" class="btn btn-info">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Second Box -->
+          <div class="col-md-4">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <img src="./MINI 1 project_Images/services-image/body repair.jpg" alt="bodyrepair">
+                <h3 class="card-title mb-3">Body Repair</h3>
+                <a href="#" class="btn btn-info">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Third Box -->
+          <div class="col-md-4">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <img src="./MINI 1 project_Images/services-image/pms.jpg" alt="pms">
+                <h3 class="card-title mb-3">Preventive Maintenance</h3>
+                <a href="#" class="btn btn-info">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Fourth Box -->
+          <div class="col-md-4">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <img src="./MINI 1 project_Images/services-image/under-chassis.jpg" alt="under-chassis">
+                <h3 class="card-title mb-3">Under Chassis</h3>
+                <a href="#" class="btn btn-info">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Fifth Box -->
+          <div class="col-md-4">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <img src="./MINI 1 project_Images/services-image/electrical.jpg" alt="bodyrepair">
+                <h3 class="card-title mb-3">Electrical</h3>
+                <a href="#" class="btn btn-info">See More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Sixth Box -->
+          <div class="col-md-4">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <img src="./MINI 1 project_Images/services-image/others.jpg" alt="other">
+                <h3 class="card-title mb-3">Other Services</h3>
+                <a href="#" class="btn btn-info">See More</a>
+              </div>
+            </div>
+          </div>
+        </section>
+         
+    <!-- PARTNER BRANDS -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row align-items-center g-2">
+          <h2 class="text-center fw-bold">Quality Trusted Brands</h2>
+          <!-- First Box -->
+          <div class="col-md-2">
+            <img src="./MINI 1 project_Images/anzhal.png" alt="anzhal">
+          </div>
+
+          <!-- Second Box -->
+          <div class="col-md">
+            <img src="./MINI 1 project_Images/auto-aid.jpg" alt="auto aid">
+          </div>
+          <!-- Third Box -->
+          <div class="col-md">
+            <img src="./MINI 1 project_Images/Cromax.png" alt="cromax">
+          </div>
+          <!-- Fourth Box -->
+          <div class="col-md">
+            <img src="./MINI 1 project_Images/mtx.jpg" alt="microtex">
+          </div>
+
+          <!-- Fifth Box -->
+          <div class="col-md">
+            <img src="./MINI 1 project_Images/nippon.webp" alt="auto aid">
+          </div>
+          <!-- Sixth Box -->
+          <div class="col-md">
+            <img src="./MINI 1 project_Images/prestone.jpeg" alt="prestone">
+          </div>
+          <!-- Seventh Box -->
+          <div class="col-md">
+            <img src="./MINI 1 project_Images/top-1.jpg" alt="top1">
+          </div>
+          <!-- Eight Box -->
+          <div class="col-md">
+            <img src="./MINI 1 project_Images/vic.webp" alt="vic">
+          </div>
+          <!-- Nineth Box -->
+          <div class="col-md">
+            <img src="./MINI 1 project_Images/wurth.png" alt="wurth">
+          </div>
+          </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 align-self-center">
+            <h3 class="pt-md-3 text-light">Business Hours:</h3>
+            <ul class=" list-unstyled">
+              <li class="list-group-item text-light pb-md-3">
+                <i class="bi bi-calendar-date"></i> Monday to Saturday
+              </li>
+              <li class="list-group-item text-light">
+                <i class="bi bi-clock"></i> 8:00am - 6:00pm
+              </li>
+            </ul>
+            </div>
+          <div class="col-md-4 align-self-center">
+            <h3 class="text-light">Follow us On:</h3>
+            <div class="feature btn bg-primary text-white rounded-3 align-self-center mt-md-3"><i class="bi bi-facebook align-self-center"></i></div>
+          </div>
+      </div>
+     <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center text-light">
+            <p>Copyright &copy; 2023 | GENCARZ Unlimited | All Rights Reserved |<a href="#" class="btn text-light">Privacy Policy</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+  </body>
+</html>

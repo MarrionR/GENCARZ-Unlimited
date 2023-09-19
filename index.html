@@ -10,13 +10,15 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/style-services.css" />
 
     <title>GENCARZ Unlimited</title>
   </head>
-  <body data-bs-spy="scroll" data-bs-target="#main_menu">
+  <body data-bs-spy="scroll" data-bs-target="#main_menu" class="bg-gradient-primary-to-secondary">
     <!-- Navigation -->
     <nav 
       id="main_menu"
@@ -79,24 +81,24 @@
         <div class="carousel-item active">
           <img src="./MINI 1 project_Images/showcase2.jpg" alt="showcase2" class=" d-block w-100" />
             <div class="carousel-caption">
-            <h1 class="fw-bold">GENCARZ Unlimted</h1>
-            <p>We make your vehicles in Brand New!</p>
+            <h1 class="fw-bold fs-1">GENCARZ Unlimted</h1>
+            <p class="fs-5">We make your vehicles in Brand New!</p>
             <a href="#" class="btn btn-info">Book an Appointment Now</a>
           </div>
         </div>
         <div class="carousel-item active">
           <img src="./MINI 1 project_Images/showcase.jpg" alt="showcase" class="d-block w-100" />
           <div class="carousel-caption ">
-            <h1 class="fw-bold">Skilled Mechanics </h1>
-            <p>We Take care your vehicles to our Highly Skilled Workers </p>
+            <h1 class="fw-bold fs-1">Skilled Mechanics </h1>
+            <p class=" fs-5">We Take care your vehicles to our Highly Skilled Workers </p>
             <a href="#" class="btn btn-info">Check Our Team</a>
           </div>
         </div>
         <div class="carousel-item active">
           <img src="./MINI 1 project_Images/volks_1.png" alt="car-group" class="d-block w-100" />
           <div class="carousel-caption">
-            <h1 class="fw-bold">From Vintage to Brand New</h1>
-            <p>We Fix Them All</p>
+            <h1 class="fw-bold fs-1">From Vintage to Brand New</h1>
+            <p class="fs-5">We Fix Them All</p>
             <a href="#" class="btn btn-info">Book an Appointment Now</a>
           </div>
         </div>
@@ -120,16 +122,16 @@
     </section>
 
     <!-- ABOUT -->
-    <section id="about" class="pt-md-3 text-light bg-dark pt-5">
+    <section id="about" class="pt-md-3 text-light  pt-5">
       <div class="container pb-3">
         <div class="row">
           <div class="col-md-6 align-self-center">
-            <img src="./MINI 1 project_Images/showcase1.jpeg" alt="About Image" />
+            <img src="./MINI 1 project_Images/showcase1.jpeg" style="border-radius: 1rem;" alt="About Image" />
           </div>
           <div class="col-md-6 align-self-center">
             <h2 class="text-center">About Us</h2>
-            <p>
-              Welcome to <span class="fw-bold">GENCARZ Unlimited</span> (formerly GENCARZ zAuto Restoration) located in Asingan, Pangasinan. We are a full-service preventive maintenance and professional automotive repair center. We perform high quality, guaranteed service you can trust at a fair price. We repair mostly domestic and foreign vehicles and are your best choice for scheduled maintenance of your car, SUV, or multicab. We know how much you depend on your vehicles. Thats why we are committed to provide safe, reliable auto repair and outstanding customer service. We offer quality repairs to your car, excellent paint jobs, an inspection station, and a bright clean and well-maintained waiting area with a mini hospitality center to serve you.
+            <p class="fs-5">
+              Welcome to <span class="fw-bold">GENCARZ Unlimited</span> (formerly GENCARZ Auto Restoration) located in Asingan, Pangasinan. We are a full-service preventive maintenance and professional automotive repair center. We perform high quality, guaranteed service you can trust at a fair price. We repair mostly domestic and foreign vehicles and are your best choice for scheduled maintenance of your car, SUV, or multicab. We know how much you depend on your vehicles. Thats why we are committed to provide safe, reliable auto repair and outstanding customer service. We offer quality repairs to your car, excellent paint jobs, an inspection station, and a bright clean and well-maintained waiting area with a mini hospitality center to serve you.
             </p>
             <a href="about.html" class="btn btn-light mt-3"
               >Read More<i class="bi bi-chevron-right"></i></a
@@ -142,7 +144,7 @@
     <!-- SERVICES -->
     <section id="services" class="p-4">
       <div class="container">
-        <h2 class="pb-md-3 text-center fw-bold">Services we offer</h2>
+        <h2 class="pb-md-3 text-center text-light"> Services We Offer!</h2>
         <div class="row text-center g-4">
           <!-- First Box -->
           <div class="col-md-4">
@@ -160,7 +162,7 @@
               <div class="card-body text-center">
                 <img src="./MINI 1 project_Images/services-image/body repair.jpg" alt="bodyrepair">
                 <h3 class="card-title mb-3">Body Repair</h3>
-                <a href="#" class="btn btn-info">See More</a>
+                <a href="services.html#body-repair" class="btn btn-info">See More</a>
               </div>
             </div>
           </div>
@@ -170,7 +172,7 @@
               <div class="card-body text-center">
                 <img src="./MINI 1 project_Images/services-image/pms.jpg" alt="pms">
                 <h3 class="card-title mb-3">Preventive Maintenance</h3>
-                <a href="#" class="btn btn-info">See More</a>
+                <a href="services.html#pms" class="btn btn-info">See More</a>
               </div>
             </div>
           </div>
@@ -180,7 +182,7 @@
               <div class="card-body text-center">
                 <img src="./MINI 1 project_Images/services-image/under-chassis.jpg" alt="under-chassis">
                 <h3 class="card-title mb-3">Under Chassis</h3>
-                <a href="#" class="btn btn-info">See More</a>
+                <a href="services.html#under-chassis" class="btn btn-info">See More</a>
               </div>
             </div>
           </div>
@@ -188,9 +190,9 @@
           <div class="col-md-4">
             <div class="card bg-dark text-light">
               <div class="card-body text-center">
-                <img src="./MINI 1 project_Images/services-image/electrical.jpg" alt="bodyrepair">
+                <img src="./MINI 1 project_Images/services-image/electrical.jpg" alt="electrical">
                 <h3 class="card-title mb-3">Electrical</h3>
-                <a href="#" class="btn btn-info">See More</a>
+                <a href="services.html#electrical" class="btn btn-info">See More</a>
               </div>
             </div>
           </div>
@@ -200,16 +202,16 @@
               <div class="card-body text-center">
                 <img src="./MINI 1 project_Images/services-image/others.jpg" alt="other">
                 <h3 class="card-title mb-3">Other Services</h3>
-                <a href="#" class="btn btn-info">See More</a>
+                <a href="services.html#others" class="btn btn-info">See More</a>
               </div>
             </div>
           </div>
         </section>
          
     <!-- PARTNER BRANDS -->
-    <section class="p-5">
+    <section class="p-5 bg-light">
       <div class="container">
-        <div class="row align-items-center g-2">
+        <div class="row align-items-center over g-2">
           <h2 class="text-center fw-bold">Quality Trusted Brands</h2>
           <!-- First Box -->
           <div class="col-md-2">
@@ -255,10 +257,10 @@
 
     <footer id="footer" class="bg-dark">
       <div class="container">
-        <div class="row">
+        <div class="row g-4">
           <div class="col-md-4 align-self-center">
-            <h3 class="pt-md-3 text-light">Business Hours:</h3>
-            <ul class=" list-unstyled">
+            <h3 class="pt-md-3 text-light text-center fs-1">Business Hours:</h3>
+            <ul class=" list-unstyled text-center fs-5">
               <li class="list-group-item text-light pb-md-3">
                 <i class="bi bi-calendar-date"></i> Monday to Saturday
               </li>
@@ -266,11 +268,21 @@
                 <i class="bi bi-clock"></i> 8:00am - 6:00pm
               </li>
             </ul>
+            <span class="text-light text-center"><h3 class="fs-1"> Visit our Shop at:</h3></span>
+            <p class="text-light fs-5 text-center "><i class="bi bi-geo-alt text-light"></i> Cor. M.Malong & T.Bauzon St. Poblacion West, Asingan, Pangasinan</p>
             </div>
-          <div class="col-md-4 align-self-center">
-            <h3 class="text-light">Follow us On:</h3>
-            <div class="feature btn bg-primary text-white rounded-3 align-self-center mt-md-3"><i class="bi bi-facebook align-self-center"></i></div>
+          <div class="col-md-4 pt-md-3 text-center">
+            <h3 class="text-light text-center mb-3 fs-1">Follow us on:</h3>
+            <div class="btn bg-primary text-white mb-5"><i class="bi bi-facebook btn-primary align-self-center text-center fs-5"> Facebook</i>
+            </div>
+            <div class="align-self-end">
+           <p class="pt-md-4"> <a href="#" class="btn btn-info form-control">Book an Appointment Now</a></p></div>
           </div>
+          <div class=" container col-md-4 align-self-center">
+            <div class="mt-md-5">
+              <div id="map">
+             </div>
+            </div>        
       </div>
       </div>
      <hr>
@@ -282,12 +294,22 @@
         </div>
       </div>
     </footer>
-        <script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     
+        <!-- MAPBOX SCRIPT -->
+      <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+      <script>
+         mapboxgl.accessToken = "pk.eyJ1IjoibWlhbm1hcjA4IiwiYSI6ImNsbXBvNGc1ODE5OHgybnVqN3I2N2RmNnMifQ.1hLY3JwBmljIcEAp-Kqoag";
+          var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11', center: [120.667752,16.006268], zoom:18
+          });
+      </script>
+        <!-- ------------ -->
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

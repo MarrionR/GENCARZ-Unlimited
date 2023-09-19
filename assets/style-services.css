@@ -11553,8 +11553,8 @@ textarea.form-control-lg {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: #42047e;
+  background: linear-gradient(135deg, #42047e 0%, #07f49e 100%);
 }
 
 .text-gradient {

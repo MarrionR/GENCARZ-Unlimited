@@ -15,6 +15,9 @@ img {
   background: no-repeat center center/cover;
   height: 65vh !important;
  }
+/*  #mainMenu .navbar-nav {
+  justify-content: space-between;
+ } */
  
 #mainMenu .nav-link {
     color: #e6e6e6;
